@@ -1,0 +1,9 @@
+[package]
+name = "bevy_nannou_test1"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = "0.19"
+# nannou = "0.20"
+nannou = { version = "0.20", git = "https://github.com/ffunatsu/nannou", branch="main"}
